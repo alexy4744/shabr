@@ -1,3 +1,48 @@
 .navbar {
+    background: transparent;
+    border: 0;
     margin: 0;
+    padding: 10px 10px;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-toggle {
+    background: none !important;
+    border: none;
+}
+
+.navbar-dropdown-expanded {
+    background: white !important;
+}
+
+.navbar-dropdown-expanded a {
+    color: #444 !important;
+}
+
+.navbar-dropdown-expanded a:hover {
+    color: black !important;
+}
+
+.navbar-dropdown-expanded .icon-bar {
+    background-color: #444 !important;
+}
+
+.navbar-collapse {
+    border-top: black !important;
+}
+
+nav a {
+    color: #ccc !important;
+}
+
+nav a:hover {
+    color: white !important;
+}
+
+.icon-bar {
+    background-color: white !important;
 }
