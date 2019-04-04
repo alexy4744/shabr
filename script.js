@@ -1,18 +1,18 @@
 $(function() {
   const nav = $("nav");
-  const navDropdown = $("#nav-dropdown");
 
-  $(window).scroll(function(scrollEvent) {
-    if (window.scrollY > 50) {
+  // If the user scrolled enough, then make the navbar not transparent
+  $(window).scroll(function() {
+    if (window.scrollY) {
       nav.addClass("navbar-white")
     }
-    else if (!navDropdown.hasClass("in")) {
+    else if (!$("#nav-dropdown").hasClass("in")) {
       nav.removeClass("navbar-white")
     }
   });
 
   $(".navbar-toggle").click(function() {
-    if (navDropdown.hasClass("navbar-white")) {
+    if (nav.hasClass("navbar-white") && !window.scrollY) {
       nav.removeClass("navbar-white")
     }
     else {
