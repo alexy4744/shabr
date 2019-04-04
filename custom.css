@@ -36,3 +36,19 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.centerDiv2 h1{
+    color: black;
+    text-align: center;
+}
+
+.centerDiv2 h5 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.centerDiv2 p{
+    color:black;
+    text-align: center;
+}
