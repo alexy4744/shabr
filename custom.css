@@ -9,47 +9,49 @@ body {
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/balloon-3.jpg") no-repeat center;
   background-size: cover;
+  filter: saturate(140%);
 }
 
 .jumbotron {
-    background-color: #0000;
-    padding-top: 80px;
-    padding-left: 100px;
-    width: 100%;
-    height: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
+  background-color: #0000;
+  padding-top: 80px;
+  padding-left: 100px;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .jumbotron h1 {
-    font-size: 50px;
-    color: white;
+  font-size: 50px;
+  color: white;
 }
 
 .jumbotron p {
-    color: white;
+  color: white;
 }
 
-.centerDiv {
-    width:100%;
-    height:100%;
-    margin-top: auto;
-    margin-bottom: auto;
+#info {
+  padding: 25px;
 }
 
-.centerDiv2 h1{
-    font-size: 50px;
-    color: black;
-    text-align: center;
+@media screen and (min-width: 768px) {
+  #info {
+    padding: 50px 75px;
+  }
 }
 
-.centerDiv2 h5 {
-    font-size: 30px;
-    color: black;
-    text-align: center;
+.info-header {
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.centerDiv2 p{
-    color:black;
-    text-align: center;
+@media screen and (min-width: 768px) {
+  .info-header {
+    font-size: 35px;
+  }
+}
+
+#info p {
+  margin-bottom: 30px;
 }
