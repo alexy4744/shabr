@@ -11,6 +11,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 550;
+}
+
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 50px;
@@ -111,5 +117,11 @@ h2 {
 
 .copyright {
   font-size: 14px;
+  text-align: center;
+}
+
+#home p {
+  font-size: 18px;
+  font-weight: 400;
   text-align: center;
 }
