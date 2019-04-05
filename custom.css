@@ -109,3 +109,7 @@ h2 {
 #carousel .item img {
   width: 100%;
 }
+
+#home p {
+    font-size: 20px;
+}
