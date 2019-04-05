@@ -108,3 +108,8 @@ h2 {
 #carousel .item img {
   width: 100%;
 }
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}
