@@ -1,14 +1,14 @@
 $(function() {
   const nav = $("nav");
-  const navDropdown = $("#nav-dropdown")
+  const navDropdown = $("#nav-dropdown");
 
   // If the user scrolled enough, then make the navbar not transparent
   $(window).scroll(function() {
     if (window.scrollY) {
-      nav.addClass("navbar-white")
+      nav.addClass("navbar-white");
     }
     else if (!navDropdown.hasClass("in")) {
-      nav.removeClass("navbar-white")
+      nav.removeClass("navbar-white");
     }
   });
 
@@ -17,10 +17,10 @@ $(function() {
     if (navDropdown.hasClass("collapsing")) return;
 
     if (nav.hasClass("navbar-white") && !window.scrollY) {
-      nav.removeClass("navbar-white")
+      nav.removeClass("navbar-white");
     }
     else {
-      nav.addClass("navbar-white")
+      nav.addClass("navbar-white");
     }
-  })
+  });
 });

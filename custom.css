@@ -84,12 +84,13 @@ h2 {
   }
 }
 
-#info p {
+#info p,
+.info-header {
   font-size: 20px;
+  text-align: center;
 }
 
 .info-header {
-  font-size: 20px;
   font-weight: 600;
 }
 
@@ -98,8 +99,6 @@ h2 {
     font-size: 35px;
   }
 }
-
-#gallery {}
 
 #carousel {
   width: 100%;
