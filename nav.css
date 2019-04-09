@@ -1,4 +1,4 @@
-nav a {
+nav li:not([class='active']) a {
   color: #ccc !important;
 }
 
@@ -41,8 +41,8 @@ nav a:hover {
   box-shadow: 1px 1px 10px 1px;
 }
 
-.navbar-white a {
-  color: #666 !important;
+.navbar-white  li:not([class='active']) a {
+  color: #777 !important;
 }
 
 .navbar-white a:hover {
@@ -59,4 +59,8 @@ nav a:hover {
 
 .icon-bar {
   background-color: white !important;
+}
+
+ul .active {
+  color: black !important;
 }
