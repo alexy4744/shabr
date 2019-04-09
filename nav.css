@@ -2,6 +2,10 @@ nav li:not([class='active']) a {
   color: #ccc !important;
 }
 
+.navbar-white li:not([class='active']) a {
+  color: #777 !important;
+}
+
 nav a:hover {
   color: white !important;
 }
@@ -39,10 +43,6 @@ nav a:hover {
 .navbar-white {
   background: white !important;
   box-shadow: 1px 1px 10px 1px;
-}
-
-.navbar-white  li:not([class='active']) a {
-  color: #777 !important;
 }
 
 .navbar-white a:hover {
