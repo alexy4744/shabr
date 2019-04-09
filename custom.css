@@ -2,19 +2,22 @@ html,
 body {
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 35px !important;
   text-align: center;
 }
 
 h3 {
   font-size: 23px;
-  text-align: center;
   font-weight: 550;
+  text-align: center;
+  margin-top: 0 !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -37,6 +40,10 @@ h3 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/balloon-3.jpg") no-repeat center;
   background-size: cover;
   filter: saturate(140%);
+}
+
+.content > .container {
+  padding-top: 90px !important;
 }
 
 .jumbotron {
@@ -76,10 +83,15 @@ h3 {
   }
 }
 
+.lead {
+  margin-bottom: 30px !important;
+}
+
 #info,
 #gallery,
-#home {
-  padding: 25px 30px;
+#home,
+#testimonials {
+  padding: 0 30px;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -91,6 +103,7 @@ h3 {
   }
 }
 
+#home p,
 #info p,
 .info-header {
   font-size: 20px;
@@ -99,6 +112,10 @@ h3 {
 
 .info-header {
   font-weight: 600;
+}
+
+.glyphicon {
+  vertical-align: top;
 }
 
 @media screen and (min-width: 768px) {
@@ -118,12 +135,6 @@ h3 {
 
 .copyright {
   font-size: 14px;
-  text-align: center;
-}
-
-#home p {
-  font-size: 18px;
-  font-weight: 400;
   text-align: center;
 }
 

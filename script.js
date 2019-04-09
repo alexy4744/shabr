@@ -2,6 +2,10 @@ $(function() {
   const nav = $("nav");
   const navDropdown = $("#nav-dropdown");
 
+  if (window.scrollY) {
+    nav.addClass("navbar-white");
+  }
+
   // If the user scrolled enough, then make the navbar not transparent
   $(window).scroll(function() {
     if (window.scrollY) {
@@ -23,4 +27,8 @@ $(function() {
       nav.addClass("navbar-white");
     }
   });
+
+  $(".nav a").click(function() {
+    navDropdown.collapse("hide")
+  })
 });

@@ -19,7 +19,15 @@ nav a:hover {
   max-width: 1200px;
 }
 
+.navbar-logo {
+  margin-right: 10px;
+  width: 32px;
+}
+
 .navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   color: white !important;
 }
 
