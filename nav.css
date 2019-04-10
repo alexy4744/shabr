@@ -45,6 +45,10 @@ nav a:hover {
   box-shadow: 1px 1px 10px 1px;
 }
 
+.navbar-white .navbar-brand {
+  color: black !important;
+}
+
 .navbar-white a:hover {
   color: black !important;
 }
